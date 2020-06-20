@@ -1,0 +1,4 @@
+from PIL import Image,ImageGrab
+def ts():
+	image=ImageGrab.grab()
+	image.show()
